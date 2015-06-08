@@ -71,35 +71,3 @@ Initial release
 
 1. Add density info (Kevin Smith ksmth@github)
 2. Made testing easier with a sample image and output directory
-
-0.1.7 - 11-07-2014
-------------------
-
-1. Thumbnail generation optimized
-
-1.0.0 - 14-07-2014
-------------------
-
-1. Changed to promise-based interface
-2. Mocha tests
-
-1.0.1 - 03-08-2014
-------------------
-
-1. Fixed potential hidden bugs - thanks to @jheusala
-
-1.0.2 - 21-08-2014
-------------------
-
-1. Remove PixelsPerCentimeter
-2. Test output dir
-
-1.0.3 - 27-09-2014
-------------------
-
-1. Use child_process.execFile instead of child_process.exec to prevent potential shellshock exploit
-
-1.0.4 - 24-12-2014
-------------------
-
-1. Filenames with spaces supported in `.exec()`
